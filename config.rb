@@ -60,9 +60,15 @@ page "/feed.xml", layout: false
 
 # Build-specific configuration
 configure :build do
-  # Minify CSS on build
-  # activate :minify_css
+  activate :external_pipeline,
+    name: :gulp,
+    command: "npm run production",
+    source: ".tmp",
+    latency: 1
 
-  # Minify Javascript on build
-  # activate :minify_javascript
+  activate :gzip
+
+  ignore "javascripts/all.js"
+  ignore "stylesheets/site"
+
 end
