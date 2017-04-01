@@ -1,3 +1,9 @@
+@charset "utf-8";
+
+@import "bourbon";
+@import "base/base";
+@import "neat";
+
 div {
-  background: #ecc561;
+  background: tint(red, 50%);
 }
