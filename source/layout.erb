@@ -11,8 +11,8 @@
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
-    <div class="container">
-      <%= partial "partials/header" %>
+    <%= partial "partials/header" %>
+    <section class="container">
       <div id="main" role="main">
         <%= yield %>
       </div>
@@ -39,6 +39,6 @@
           <% end %>
         </ol>
       </aside>
-    </div>
+    </section>
   </body>
 </html>
