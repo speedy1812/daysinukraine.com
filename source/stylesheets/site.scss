@@ -3,20 +3,34 @@
 @import "bourbon";
 @import "base/base";
 @import "neat";
+@import "header";
 
 body {
-  @include grid-column(6);
-  @include grid-push(3);
-  @include grid-visual;
-  border: solid black 1px;
+  background: #e2e2e2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+  // @include grid-visual;
+}
+
+section.container {
+  background: white;
+  @include clearfix;
 }
 
 #main {
   @include grid-column(9);
-  border: solid black 1px;
+  padding: 15px 40px 0 40px;
 }
 
 aside {
   @include grid-column (3);
-  border: solid black 1px;
+  padding: 15px 0 0 0;
+}
+
+a:active, a:focus, a:hover {
+  text-decoration: underline;
 }
