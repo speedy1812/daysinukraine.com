@@ -8,7 +8,7 @@ The big event of the month was a talk that Kelsie Steele did. One of the local c
 
 ![Picture of Kelsie's talk](images/class.jpg)
 
-<p class:"caption">Kelsie and Katelin had quite the turnout for their talk!</p>
+<p class="caption">Kelsie and Katelin had quite the turnout for their talk!</p>
 
 Kelsie and Katelin had quite the turnout for their talk!
 
