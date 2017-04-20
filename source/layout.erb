@@ -6,7 +6,13 @@
   <body>
     <%= partial "partials/header" %>
     <section class="container">
+
       <div id="main" role="main">
+        <h1 class="post-title"><%= current_article.title unless current_article.nil? %></h1>
+        <p class="author-date">
+          <%= 'Posted on ' + current_article.date.strftime('%B %e, %G') unless current_article.nil? %>
+          <%= 'by ' + current_article.data.author unless current_article.nil? or current_article.data.author.nil? %>
+        </p>
         <%= yield %>
       </div>
       

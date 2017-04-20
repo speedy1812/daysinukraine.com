@@ -27,6 +27,15 @@ section.container {
   padding: 15px 40px 0 40px;
 }
 
+.author-date {
+  font-size: .75em;
+  font-style: italic;
+}
+
+.post-title {
+  margin-bottom: .1em;
+}
+
 aside {
   @include grid-column (3);
   padding: 15px 0 0 0;
