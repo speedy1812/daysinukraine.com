@@ -1,8 +1,8 @@
 {
-  "name": "gulp-mm-css",
+  "name": "middleman-gulp",
   "version": "1.0.0",
-  "description": "A Middleman 4 blog using Gulp.js",
-  "author": "Nathan Day",
+  "description": "A Middleman 4 template using Gulp.js",
+  "author": "Joshua Steele",
   "homepage": "",
   "license": "MIT",
   "keywords": [
