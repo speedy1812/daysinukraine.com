@@ -20,3 +20,4 @@
 /node_modules
 .tmp
 npm-debug.log
+tmux-client-6544.log
