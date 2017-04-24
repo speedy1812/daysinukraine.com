@@ -1,0 +1,22 @@
+footer.container {
+  background: #4d4d4d;
+  height: 30px;
+  color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .75em;
+}
+
+footer a {
+  color: lightgrey;
+}
+
+footer a:active, footer a:focus, footer a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+.placeholder {
+  height: 3px;
+}
