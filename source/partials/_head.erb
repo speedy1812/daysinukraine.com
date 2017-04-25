@@ -8,5 +8,5 @@
 <%= stylesheet_link_tag "site" %>
 <%# <%= javascript_include_tag  "all", async: true %>
 
-<title>Nathan & Katelin Day<%= ' - ' + current_article.title unless current_article.nil? %></title>
+<title><%= current_page.data.title + ' - ' unless current_page.data.title.nil? %>Nathan & Katelin Day</title>
 <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
