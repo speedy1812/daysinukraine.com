@@ -22,5 +22,3 @@ I’m currently working on gathering the documents for our renewing our residenc
 **Family**
 
 The snowsuits have been put away, and all of L’viv is in bloom, so I think it’s safe to say that spring is here to stay! We are all enjoying the warmer weather, as well as the fresh spring veggies that are starting to appear at the market.
-
-And lastly, here are the [pictures](https://www.facebook.com/media/set/?set=a.10155223931484600.1073741888.609714599&type=1&l=99638ec57c) for the month, as well as a [video](https://youtu.be/Sk5RlYVXBBs) of Briana playing hide-and-seek with Daddy.
