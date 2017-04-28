@@ -22,10 +22,10 @@ title: Donate
   Franktown, CO 80116
 %p
   Or, if you prefer, you can
-  = succeed "." do
-    %a{:href => "http://paypal.me/nathanday", :target => "_blank"} send money online via PayPal
+  = link_to "send money online via PayPal.", "http://paypal.me/nathanday", target: :_blank 
+  (Money sent to us via PayPal is not tax-deductible).
 %hr/ 
 %p 
   Last, but not least, take a look at the 
-  %a{:href => "https://shopmyplexus.com/nathanday/products/nutrition/index.html", :target => "_blank"} supplements
+  = link_to "supplements", "https://shopmyplexus.com/nathanday/products/nutrition/index.html", target: :_blank
   that Plexus Worldwide offers. If you purchase them through our site, not only will you be helping to support us financially, but you just might improve your health as well!
