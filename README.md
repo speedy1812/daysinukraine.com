@@ -5,6 +5,11 @@ daysinukraine.com
 
 This site was built using [Middleman 4](https://middlemanapp.com/).
 
+Acknowledgements
+-----
+
+Many thanks to [Joshua Steele](https://github.com/joshukraine) for his help with this project. Much of my code was inspired by (if not copied from) his [Middleman + Gulp](https://github.com/joshukraine/middleman-gulp) repo.
+
 Legal
 -----
 
