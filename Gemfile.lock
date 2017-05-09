@@ -152,6 +152,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon (~> 5.0.0.beta.7)
   builder (~> 3.0)
+  haml (~> 4.0)
   middleman (~> 4.1)
   middleman-blog
   middleman-minify-html (~> 3.4)
