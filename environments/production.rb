@@ -3,8 +3,8 @@
 #
 # https://middlemanapp.com/basics/upgrade-v4/#environments-and-changes-to-configure-blocks
 
-activate :asset_host, host: "https://d1uwlk5da5dexa.cloudfront.net"
 activate :asset_hash
+activate :asset_host, host: "https://d1ll4tgr741o0l.cloudfront.net"
 
 # https://github.com/fredjean/middleman-s3_sync#http-caching
 default_caching_policy max_age: (60 * 60 * 24 * 365)
