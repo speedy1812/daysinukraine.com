@@ -6,7 +6,7 @@
 = tag "link", rel: "apple-touch-icon", href: "images/apple-touch-icon.png"
 
 = stylesheet_link_tag "site"
-= javascript_include_tag  "all", async: true
+= javascript_include_tag :bundle, async: true
 
 %title
   #{current_page.data.title + ' - ' unless current_page.data.title.nil?} Nathan & Katelin Day
