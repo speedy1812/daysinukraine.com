@@ -16,3 +16,9 @@ gem "middleman-s3_sync", "~> 4.0"
 # Had to add mime-types to get s3_sync to work
 # https://github.com/fredjean/middleman-s3_sync/issues/123
 gem "mime-types", "~> 3.0"
+
+group :development do
+  gem "rspec", "~> 3.6"
+  gem "capybara", "~> 2.14"
+  gem "launchy", "~> 2.4"
+end
