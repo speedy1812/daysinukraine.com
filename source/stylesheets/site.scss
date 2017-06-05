@@ -6,6 +6,7 @@
 @import "neat";
 @import "partials/header";
 @import "partials/footer";
+@import "mixins/mixins";
 
 body {
   background: #e2e2e2;
@@ -15,6 +16,7 @@ body {
   margin: 0 auto;
   max-width: 1000px;
   position: relative;
+  @include grid-container;
   // @include grid-visual;
 }
 
