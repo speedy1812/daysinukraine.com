@@ -3,15 +3,16 @@
   %head
     = partial "partials/head"
   %body
-    = partial "partials/header"
-    %section.container
+    %main
+      = partial "partials/header"
+      %section.container
 
-      #main
-        %h1.post-title #{ current_article.title unless current_article.nil? }
-        %p.author-date
-          = 'Posted on ' + current_article.date.strftime('%B %e, %G') unless current_article.nil?
-          = 'by ' + current_article.data.author unless current_article.nil? or current_article.data.author.nil?
-        = yield
-      
-      = partial "partials/sidebar"
-    = partial "partials/footer"
+        #main
+          %h1.post-title #{ current_article.title unless current_article.nil? }
+          %p.author-date
+            = 'Posted on ' + current_article.date.strftime('%B %e, %G') unless current_article.nil?
+            = 'by ' + current_article.data.author unless current_article.nil? or current_article.data.author.nil?
+          = yield
+        
+        = partial "partials/sidebar"
+      = partial "partials/footer"
