@@ -23,9 +23,9 @@
   a {
     color: white;
 
-    a:active,
-    a:focus,
-    a:hover {
+    &:active,
+    &:focus,
+    &:hover {
       color: lightgrey;
       text-decoration: underline;
     }
