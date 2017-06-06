@@ -1,31 +1,33 @@
-img.header-image {
+.header__image {
   display: block;
   margin: 0 auto;
 }
 
-nav {
+.navbar {
   background: #222; /* Show a solid color for older browsers */
   background: linear-gradient(#252525, #0a0a0a);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 }
 
-nav ul {
-  min-height: 50px;
+.navbar__links {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-}
+  min-height: 50px;
 
-nav li {
-  margin: 0 20px;
-}
+  li {
+    margin: 0 20px;
+  }
 
-nav a {
-  color: white;
-}
+  a {
+    color: white;
 
-nav a:active, nav a:focus, nav a:hover {
-  color: lightgrey; 
-  text-decoration: underline;
+    a:active,
+    a:focus,
+    a:hover {
+      color: lightgrey;
+      text-decoration: underline;
+    }
+  }
 }
