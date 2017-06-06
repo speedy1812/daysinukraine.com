@@ -48,7 +48,7 @@ body {
   margin-bottom: .1em;
 }
 
-aside {
+.sidebar {
   @include grid-column (3);
   padding: 15px 0 0 0;
 }
@@ -57,15 +57,15 @@ div.sidebar:first-of-type {
   margin-top: 10px;
 }
 
-.sidebar {
+.sidebar__item {
   margin-bottom: 10px;
 }
 
-.sidebar h2 {
+.sidebar__item h2 {
   margin-bottom: 8px;
 }
 
-.sidebar ol li span {
+.sidebar__post-dates {
   font-size: .75em;
   font-style: italic;
 }

@@ -1,26 +1,26 @@
-%aside
-  .sidebar
+%aside.sidebar
+  .sidebar__item
     %h2 Our Ministries
     %ol
       %li= link_to 'Euro Team Outreach', 'http://euroteamoutreach.org', target: :_blank
       %li= link_to 'Bible First', 'http://getbiblefirst.com', target: :_blank
       %li= link_to 'Carpathian Mountain Outreach', 'http://cmoproject.org', target: :_blank
 
-  .sidebar
+  .sidebar__item
     %h2 Recent Posts
     %ol
       - blog.articles[0...5].each do |article|
         %li
           = link_to article.title, article
-          %span= article.date.strftime('%b %e')
+          %span.sidebar__post-dates= article.date.strftime('%b %e')
 
-  .sidebar
+  .sidebar__item
     %h2 Tags
     %ol
       - blog.tags.each do |tag, articles|
         %li= link_to "#{tag} (#{articles.size})", tag_path(tag)
 
-  .sidebar
+  .sidebar__item
     %h2 By Year
     %ol
       - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
