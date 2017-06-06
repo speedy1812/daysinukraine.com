@@ -12,47 +12,39 @@ body {
   background: #e2e2e2;
 }
 
-main {
+.container {
   margin: 0 auto;
   max-width: 1000px;
   position: relative;
 }
 
-.container {
-  // margin: 0 auto;
-  // max-width: 1000px;
-  // position: relative;
-  // @include grid-visual;
-}
-
-section {
+.content {
   @include clearfix;
   @include grid-container;
   // @include grid-visual;
-  // background: white;
+  background: white;
 }
 
-#main {
+.content-main {
   @include grid-column(9);
   padding: 15px 40px 0 40px;
 
   @include grid-media($tablet-grid) {
     @include grid-column(8);
-    @include grid-visual;
   }
 }
 
-article {
+.article {
   border-bottom: 1px solid #ddd;
   margin: 0 0 1.625em;
 }
 
-.author-date {
+.article__date-author {
   font-size: .75em;
   font-style: italic;
 }
 
-.post-title {
+.article__post-title {
   margin-bottom: .1em;
 }
 
