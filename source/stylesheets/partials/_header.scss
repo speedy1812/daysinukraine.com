@@ -1,12 +1,15 @@
+$linear-gradient-beginning: #252525;
+$linear-gradient-end: #0a0a0a;
+$navbar-links-color: pink;
+$navbar-links-hover: lightgrey;
+
 .header__image {
   display: block;
   margin: 0 auto;
 }
 
 .navbar {
-  background: #222; /* Show a solid color for older browsers */
-  background: linear-gradient(#252525, #0a0a0a);
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+  background: linear-gradient($linear-gradient-beginning, $linear-gradient-end);
 }
 
 .navbar__links {
@@ -21,12 +24,12 @@
   }
 
   a {
-    color: white;
+    color: $navbar-links-color;
 
     &:active,
     &:focus,
     &:hover {
-      color: lightgrey;
+      color: $navbar-links-hover;
       text-decoration: underline;
     }
   }

@@ -1,24 +1,28 @@
+$footer-background-color: #4d4d4d;
+$footer-text-color: lightgrey;
+$footer-links-hover: white;
+
 .footer__top-padding-div {
-  background: white;
+  background: $content-background-color;
   height: 30px;
 }
 
 .footer {
   align-items: center;
-  background: #4d4d4d;
-  color: lightgrey;
+  background: $footer-background-color;
+  color: $footer-text-color;
   display: flex;
   font-size: .75em;
   height: 30px;
   justify-content: center;
 
   a {
-    color: lightgrey;
+    color: $footer-text-color;
 
     &:active,
     &:focus,
     &:hover {
-      color: white;
+      color: $footer-links-hover;
       text-decoration: underline;
     }
   }
