@@ -1,0 +1,40 @@
+---
+title: June Update
+date: 2017-06-16 07:52 UTC
+author: Nathan
+tags: monthly updates
+---
+
+As I was thinking about writing this update, and was reflecting on the things that had been accomplished, and I was struck by the thought that a sizable portion of the work had been done by people who are not ETO staff. And so, I would like to introduce you to some people that you may not have heard about, who are nonetheless contributing to our ministry.
+
+##Literature##
+
+In past months, **Anatoli Zhylavy** has been revising the Ukrainian translation of Bible First to reflect the updated English text. Recently, however, he has been translating the latest edition of *Good and Evil.*
+
+**Catherine Leavitt** is translating Bible First into French.
+
+**Maria Sanchez** is translating Bible First into Spanish, and has also been helping to improve the English version by finding typos and such.
+
+**Pat LaBarbera** is heading up the Russian translation of Bible First.
+
+**Sasha Moskalenko** is the printer that will produce *Good and Evil* once it is ready, but in the meantime, he has offered to do the layout work free of charge. Josh and I recently spent the better part of a day proofing the first two chapters, and Sasha is doing great work!
+
+##Web Development##
+
+**Trevor Brown** and **Andy Buck** are a couple of programmers that have been helping Josh to build a web application that will allow people to take the Bible First course online. In addition, Andy recently [added a page](https://getbiblefirst.com/translations/) to our website that displays the progress of the aforementioned translation projects.
+
+**Raphael Villeneuve** will be joining us for two months this summer as an intern, focusing primarily on various computer-related tasks. However, despite the fact that he hasn't arrived yet, he has already been a big help in helping us to convert the text of Bible First into a web-friendly format so that it can be displayed online. This new format will also allow us to store the Bible First text in such a way that it will be much easier to update it when necessary, as well as reduce the chances that text will be inadvertently changed or deleted.
+
+Raphael (Ralph) will be arriving in Ukraine on June 21st, and I'm sure he would appreciate your prayers for a good trip.
+
+![On a park bench](images/2017-06-bench.jpg)
+
+> Three little monkeys!
+
+##Residency Permits##
+
+Our residency permits have been renewed, and we are good to go for another year!
+
+##Family##
+
+It hasn't been such a good month for us in terms of health. We had another bug go through the family after last month's bug, and no sooner did we all get better, but Briana and I got sick again. I'd say we are on the mend, but we are hoping that we can all stay healthy for a while this time.
