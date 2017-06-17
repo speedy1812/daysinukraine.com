@@ -35,8 +35,9 @@ body {
 }
 
 .article {
-  border-bottom: 1px solid #ddd;
-  margin: 0 0 1.625em;
+  border-bottom: 1px solid #b1b1b1;
+  margin: 0 0 4em;
+  padding-bottom: 1em;
 }
 
 .article__date-author {
@@ -46,11 +47,12 @@ body {
 
 .article__post-title {
   margin-bottom: .1em;
+  font-size: 1.75em;
 }
 
 .sidebar {
   @include grid-column (3);
-  padding: 15px 0 0 0;
+  padding: 25px 0 0 0;
 }
 
 div.sidebar:first-of-type {

@@ -7,7 +7,7 @@
       = partial "partials/header"
       %section.content
         .content-main
-          %h1.article__post-title #{ current_article.title unless current_article.nil? }
+          %h2.article__post-title #{ current_article.title unless current_article.nil? }
           %p.article__date-author
             = 'Posted on ' + current_article.date.strftime('%B %e, %G') unless current_article.nil?
             = 'by ' + current_article.data.author unless current_article.nil? or current_article.data.author.nil?
