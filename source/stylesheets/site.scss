@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import "partials/normalize";
+@import "reset/normalize";
 
 @import "bourbon";
 @import "base/base";
@@ -7,104 +7,6 @@
 @import "partials/header";
 @import "partials/footer";
 @import "mixins/mixins";
-
-body {
-  background: #e2e2e2;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-  position: relative;
-}
-
-.content {
-  @include clearfix;
-  @include grid-container;
-  // @include grid-visual;
-  background: white;
-}
-
-.content-main {
-  @include grid-column(9);
-  padding: 15px 40px 0 40px;
-
-  @include grid-media($tablet-grid) {
-    @include grid-column(8);
-  }
-}
-
-.article {
-  border-bottom: 1px solid #b1b1b1;
-  margin: 0 0 4em;
-  padding-bottom: 1em;
-}
-
-.article__date-author {
-  font-size: .75em;
-  font-style: italic;
-}
-
-.article__post-title {
-  margin-bottom: .1em;
-  font-size: 1.6em;
-}
-
-.sidebar {
-  @include grid-column (3);
-  padding: 25px 0 0 0;
-}
-
-div.sidebar:first-of-type {
-  margin-top: 10px;
-}
-
-.sidebar__item {
-  margin-bottom: 10px;
-}
-
-.sidebar__item h2 {
-  margin-bottom: 8px;
-}
-
-.sidebar__post-dates {
-  font-size: .75em;
-  font-style: italic;
-}
-
-a:active, a:focus, a:hover {
-  text-decoration: underline;
-}
-
-p img {
-  display: block;
-  margin: 25px auto 0 auto;
-}
-
-blockquote {
-  font-style: italic;
-  margin: 0 auto 25px auto;
-  max-width: 400px;
-  text-align: center;
-}
-
-.bullet-list {
-  list-style-type: disc;
-  margin-left: 25px;
-}
-
-.about-page-couple-pic {
-  float: right;
-  margin: 0 0 10px 20px;
-}
-
-.forward-backward-links {
-  font-style: italic; 
-  font-size: .9em;
-  margin-bottom: 20px;
-}
-
-.mc-subscribe__button {
-  margin-bottom: 15px;
-  margin-top: 5px;
-}
+@import "partials/main-layout";
+@import "partials/articles";
+@import "partials/page-specific";
