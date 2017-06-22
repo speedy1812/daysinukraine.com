@@ -1,5 +1,7 @@
+$body-background-color: #e2e2e2;
+
 body {
-  background: #e2e2e2;
+  background: $body-background-color;
 }
 
 .container {
@@ -12,7 +14,7 @@ body {
   @include clearfix;
   @include grid-container;
   // @include grid-visual;
-  background: white;
+  background: $content-background-color;
 }
 
 .content-main {

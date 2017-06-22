@@ -1,5 +1,7 @@
+$article-border-bottom: #b1b1b1;
+
 .article {
-  border-bottom: 1px solid #b1b1b1;
+  border-bottom: 1px solid $article-border-bottom;
   margin: 0 0 4em;
   padding-bottom: 1em;
 }
