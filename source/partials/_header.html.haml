@@ -1,9 +1,9 @@
 %header
-  = link_to "/", class: "header-image" do
-    = image_tag "5-days-banner.jpg", class: "header-image"
+  = link_to "/" do
+    = image_tag "5-days-banner.jpg", class: "header__image"
 
-  %nav.container
-    %ul
+  %nav.navbar
+    %ul.navbar__links
       %li= link_to "Home", "/"
       %li= link_to "About", "/about"
       %li= link_to "Contact", "/contact"

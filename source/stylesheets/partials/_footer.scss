@@ -1,30 +1,33 @@
-div.footer-padding {
-  margin: 0 auto;
+$footer-background-color: #4d4d4d;
+$footer-text-color: lightgrey;
+$footer-links-hover: white;
+
+.footer__top-padding-div {
+  background: $content-background-color;
   height: 30px;
-  background: white;
-  max-width: 1000px;
-  position: relative;
 }
 
-footer.container {
-  background: #4d4d4d;
-  height: 30px;
-  color: lightgrey;
-  display: flex;
-  justify-content: center;
+.footer {
   align-items: center;
+  background: $footer-background-color;
+  color: $footer-text-color;
+  display: flex;
   font-size: .75em;
+  height: 30px;
+  justify-content: center;
+
+  a {
+    color: $footer-text-color;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: $footer-links-hover;
+      text-decoration: underline;
+    }
+  }
 }
 
-footer a {
-  color: lightgrey;
-}
-
-footer a:active, footer a:focus, footer a:hover {
-  color: lightgrey;
-  text-decoration: underline;
-}
-
-.placeholder {
+.footer__bottom-padding-div {
   height: 3px;
 }

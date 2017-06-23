@@ -1,0 +1,59 @@
+$body-background-color: #e2e2e2;
+
+body {
+  background: $body-background-color;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+}
+
+.content {
+  @include clearfix;
+  @include grid-container;
+  // @include grid-visual;
+  background: $content-background-color;
+}
+
+.content-main {
+  @include grid-column(9);
+  padding: 15px 40px 0 40px;
+
+  @include grid-media($tablet-grid) {
+    @include grid-column(8);
+  }
+}
+
+.sidebar {
+  @include grid-column (3);
+  padding: 25px 0 0 0;
+}
+
+div.sidebar:first-of-type {
+  margin-top: 10px;
+}
+
+.sidebar__item {
+  margin-bottom: 10px;
+}
+
+.sidebar__item h2 {
+  margin-bottom: 8px;
+}
+
+.sidebar__post-dates {
+  font-size: .75em;
+  font-style: italic;
+}
+
+a:active, a:focus, a:hover {
+  text-decoration: underline;
+}
+
+.forward-backward-links {
+  font-style: italic;
+  font-size: .9em;
+  margin-bottom: 20px;
+}

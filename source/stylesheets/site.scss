@@ -1,97 +1,12 @@
 @charset "utf-8";
-@import "partials/normalize";
+@import "reset/normalize";
 
 @import "bourbon";
 @import "base/base";
 @import "neat";
 @import "partials/header";
 @import "partials/footer";
-
-body {
-  background: #e2e2e2;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-  position: relative;
-  // @include grid-visual;
-}
-
-section.container {
-  background: white;
-  @include clearfix;
-}
-
-#main {
-  @include grid-column(9);
-  padding: 15px 40px 0 40px;
-}
-
-article {
-  border-bottom: 1px solid #ddd;
-  margin: 0 0 1.625em;
-}
-
-.author-date {
-  font-size: .75em;
-  font-style: italic;
-}
-
-.post-title {
-  margin-bottom: .1em;
-}
-
-aside {
-  @include grid-column (3);
-  padding: 15px 0 0 0;
-}
-
-div.sidebar:first-of-type {
-  margin-top: 10px;
-}
-
-.sidebar {
-  margin-bottom: 10px;
-}
-
-.sidebar h2 {
-  margin-bottom: 8px;
-}
-
-.sidebar ol li span {
-  font-size: .75em;
-  font-style: italic;
-}
-
-a:active, a:focus, a:hover {
-  text-decoration: underline;
-}
-
-p img {
-  display: block;
-  margin: 25px auto 0 auto;
-}
-
-blockquote {
-  font-style: italic;
-  margin: 0 auto 25px auto;
-  max-width: 400px;
-  text-align: center;
-}
-
-.bullet-list {
-  list-style-type: disc;
-  margin-left: 25px;
-}
-
-.cute-couple {
-  float: right;
-  margin: 0 0 10px 20px;
-}
-
-.forward-backward-links {
-  font-style: italic; 
-  font-size: .9em;
-  margin-bottom: 20px;
-}
+@import "mixins/mixins";
+@import "partials/main-layout";
+@import "partials/articles";
+@import "partials/page-specific";

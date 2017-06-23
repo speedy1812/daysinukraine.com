@@ -8,11 +8,11 @@ describe "home page", type: :feature do
   end
 
   it "displays the home navbar" do
-    expect(page).to have_css("nav.container")
+    expect(page).to have_css("nav.navbar")
   end
 
   it "displays a blog post" do
-    expect(page).to have_css("h2.post-title")
+    expect(page).to have_css("h2.article__post-title")
   end
 
 end
