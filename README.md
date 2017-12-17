@@ -1,16 +1,23 @@
-daysinukraine.com
-====================
+# DaysinUkraine.com
 
-[daysinukraine.com](http://daysinukraine.com/) is the blog of Nathan and Katelin Day.
+[![Dependency Status][gemnasium-svg]][gemnasium]
 
-This site was built using [Middleman 4](https://middlemanapp.com/).
+[DaysinUkraine.com][blog] is the blog of Nathan and Katelin Day.
 
-Acknowledgements
------
+This site was built using [Middleman 4][middleman].
 
-Many thanks to [Joshua Steele](https://github.com/joshukraine) for his help with this project. Much of my code was inspired by (if not copied from) his [Middleman + Gulp](https://github.com/joshukraine/middleman-gulp) repo.
+## Acknowledgements
 
-Legal
------
+Many thanks to [Joshua Steele][josh-steele] for his help with this project. Much of my code was inspired by (if not copied from) his [Middleman + Gulp][middleman-gulp] repo.
 
-Site content is copyright (c) 2017 by Nathan and Katelin Day. Software is under the [MIT license](https://github.com/speedy1812/daysinukraine.com/blob/master/LICENSE).
+## Legal
+
+Site content is copyright (c) 2017 by Nathan and Katelin Day. Software is under the [MIT license][license].
+
+[gemnasium-svg]: https://beta.gemnasium.com/badges/github.com/speedy1812/daysinukraine.com.svg
+[gemnasium]: https://beta.gemnasium.com/projects/github.com/speedy1812/daysinukraine.com
+[blog]: http://daysinukraine.com/
+[middleman]: https://middlemanapp.com/
+[josh-steele]: https://github.com/joshukraine
+[middleman-gulp]: https://github.com/joshukraine/middleman-gulp
+[license]: https://github.com/speedy1812/daysinukraine.com/blob/master/LICENSE
