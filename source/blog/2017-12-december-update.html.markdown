@@ -5,7 +5,7 @@ author: Nathan
 tags: monthly updates
 ---
 
-The big news of the month is that Carpathian Mountain Outreach is back! We took the summer of 2017 off to focus on literature and web development, but we will be heading back to the mountains in 2018. You can learn more buy checking out the [announcement](https://euroteamoutreach.org/blog/2017/12/cmo-is-back/) on ETO's spiffy new blog, or you can go straight to the [CMO site.](https://cmoproject.org)
+The big news of the month is that Carpathian Mountain Outreach is back! We took the summer of 2017 off to focus on literature and web development, but we will be heading back to the mountains in 2018. You can learn more by checking out the [announcement](https://euroteamoutreach.org/blog/2017/12/cmo-is-back/) on ETO's spiffy new blog, or you can go straight to the [CMO site.](https://cmoproject.org)
 
 Meanwhile, the aforementioned literature/web development continues. I recently finished a big project that will allow users to switch the interface of the Bible First site to their preferred language. And now that we have gotten the CMO announcement out of the way, Josh and I are hoping to make some good progress on *Good and Evil* and the Bible First site.
 
