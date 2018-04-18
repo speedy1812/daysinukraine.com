@@ -33,6 +33,6 @@ The biggest family news is that...
 > It's a boy!
 
 Despite the fact that we are entering unknown territory,
-we are all looking forward to meeting little boy blue! There are still a couple
+we are all looking forward to meeting Little Boy Blue! There are still a couple
 of pregnancy-related health issues that we are working on, and we would
 appreciate your prayers for those.

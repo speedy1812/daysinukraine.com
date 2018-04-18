@@ -4,8 +4,6 @@ gem "middleman", "~> 4.1"
 gem "middleman-blog"
 gem "middleman-minify-html", "~> 3.4"
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
-gem "bourbon", "~> 5.0.0.beta.7"
-gem "neat", "~> 2.0.0"
 gem "haml", "~> 4.0"
 
 # For feed.xml.builder
