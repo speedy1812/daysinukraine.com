@@ -45,7 +45,9 @@ var
 	},
 
 	uglifyOpts = {
-		preserveComments: 'license'
+    output: {
+      comments: 'uglify-save-license'
+    }
 	},
 
 	images = {
