@@ -1,7 +1,5 @@
 # DaysinUkraine.com
 
-[![Dependency Status][gemnasium-svg]][gemnasium]
-
 [DaysinUkraine.com][blog] is the blog of Nathan and Katelin Day.
 
 This site was built using [Middleman 4][middleman].
