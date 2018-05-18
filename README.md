@@ -10,7 +10,7 @@ Many thanks to [Joshua Steele][josh-steele] for his help with this project. Much
 
 ## Legal
 
-Site content is copyright (c) 2017 by Nathan and Katelin Day. Software is under the [MIT license][license].
+Site content is copyright (c) 2017-2018 by Nathan and Katelin Day. Software is under the [MIT license][license].
 
 [gemnasium-svg]: https://beta.gemnasium.com/badges/github.com/speedy1812/daysinukraine.com.svg
 [gemnasium]: https://beta.gemnasium.com/projects/github.com/speedy1812/daysinukraine.com
