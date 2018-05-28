@@ -17,6 +17,6 @@ gem "mime-types", "~> 3.0"
 
 group :development do
   gem "rspec", "~> 3.6"
-  gem "capybara", "~> 2.14"
+  gem "capybara", "~> 3.1"
   gem "launchy", "~> 2.4"
 end
