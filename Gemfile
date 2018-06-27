@@ -1,9 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
 gem "middleman", "~> 4.1"
 gem "middleman-blog"
 gem "middleman-minify-html", "~> 3.4"
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem "redcarpet", "~> 3.3", ">= 3.3.3"
 gem "haml", "~> 4.0"
 
 # For feed.xml.builder
@@ -17,6 +17,6 @@ gem "mime-types", "~> 3.0"
 
 group :development do
   gem "rspec", "~> 3.6"
-  gem "capybara", "~> 3.1"
+  gem "capybara", "~> 3.3"
   gem "launchy", "~> 2.4"
 end
