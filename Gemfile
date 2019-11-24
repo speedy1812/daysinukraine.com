@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
+gem "haml", "~> 5.1", ">= 5.1.2"
 gem "middleman", "~> 4.1"
 gem "middleman-blog"
 gem "middleman-minify-html", "~> 3.4"
 gem "redcarpet", "~> 3.3", ">= 3.3.3"
-gem "haml", "~> 4.0"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
@@ -16,7 +16,7 @@ gem "middleman-s3_sync", "~> 4.0"
 gem "mime-types", "~> 3.0"
 
 group :development do
-  gem "rspec", "~> 3.6"
   gem "capybara", "~> 3.3"
   gem "launchy", "~> 2.4"
+  gem "rspec", "~> 3.6"
 end
