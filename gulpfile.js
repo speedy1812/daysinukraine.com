@@ -99,10 +99,10 @@ gulp.task('images', function() {
 });
 
 // Clean .tmp/
-gulp.task('clean', function() {
+gulp.task('clean', function(done) {
 	p.del([
 		dest + '*'
-	]);
+	]), done();
 });
 
 // Asset Size Report
@@ -116,9 +116,7 @@ gulp.task('sizereport', function () {
 // 4. SUPER TASKS
 
 // Development Task
-gulp.task('development', function(done) {
-	p.runSequence('clean', 'css', 'js', 'images', done);
-});
+gulp.task('development', gulp.series('clean', 'css', 'js', 'images'));
 
 // Production Task
 gulp.task('production', function(done) {
@@ -128,15 +126,15 @@ gulp.task('production', function(done) {
 // Default Task
 // This is the task that will be invoked by Middleman's exteranal pipeline when
 // running 'middleman server'
-gulp.task('default', ['development'], function() {
+gulp.task('default', gulp.series('development', function() {
 
 	p.browserSync.init(serverOpts);
 
-	gulp.watch(css.in, ['css']);
-	gulp.watch(js.in, ['js']);
-	gulp.watch(images.in, ['images']);
+	gulp.watch(css.in, gulp.series('css'));
+	gulp.watch(js.in, gulp.series('js'));
+	gulp.watch(images.in, gulp.series('images'));
 
-});
+}));
 
 function handleError(err) {
 	console.log(err.toString());
