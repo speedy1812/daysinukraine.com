@@ -126,7 +126,7 @@ gulp.task('production', function(done) {
 // Default Task
 // This is the task that will be invoked by Middleman's exteranal pipeline when
 // running 'middleman server'
-gulp.task('default', gulp.series('development', function() {
+gulp.task('default', gulp.series('development', function browsersync () {
 
 	p.browserSync.init(serverOpts);
 
