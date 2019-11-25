@@ -115,9 +115,7 @@ gulp.task('sizereport', function () {
 gulp.task('development', gulp.series('clean', 'css', 'js', 'images'));
 
 // Production Task
-gulp.task('production', function(done) {
-	p.runSequence('clean', 'css', 'js', 'images', 'sizereport', done);
-});
+gulp.task('production', gulp.series('clean', 'css', 'js', 'images', 'sizereport'));
 
 // Default Task
 // This is the task that will be invoked by Middleman's exteranal pipeline when
