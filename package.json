@@ -9,6 +9,9 @@
     "middleman",
     "gulp"
   ],
+  "browserslist": [
+    "defaults"
+  ],
   "repository": {
     "type": "git",
     "url": ""
