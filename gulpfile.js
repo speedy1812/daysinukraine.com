@@ -7,11 +7,10 @@ var bourbon = require('bourbon').includePaths;
 var neat = require('bourbon-neat').includePaths;
 var p    = require('gulp-load-plugins')({ // This loads all the other plugins.
 	DEBUG: false,
-	pattern: ['gulp-*', 'gulp.*', 'del', 'run-*', 'browser*', 'vinyl-*'],
+	pattern: ['gulp-*', 'gulp.*', 'del', 'run-*', 'browser*', 'vinyl-*', 'through2'],
 	rename: {
 		'vinyl-source-stream': 'source',
 		'vinyl-buffer': 'buffer',
-		'gulp-util': 'gutil'
 	},
 });
 
@@ -72,7 +71,7 @@ gulp.task('css', function() {
 });
 
 // Javascript Bundling
-gulp.task('js', function() {
+gulp.task('js', function(done) {
 	var b = p.browserify({
 		entries: src + 'javascripts/all.js',
 		debug: true
@@ -80,10 +79,11 @@ gulp.task('js', function() {
 
 	return b.bundle().on('error', handleError)
 		.pipe(p.source('bundle.js'))
-		.pipe(production() ? p.buffer() : p.gutil.noop())
+		.pipe(production ? p.buffer() : p.through.obj())
 		.pipe(production(p.stripDebug()))
-		.pipe(production() ? p.uglify(uglifyOpts) : p.gutil.noop())
-		.pipe(gulp.dest(js.out));
+		.pipe(production ? p.uglify(uglifyOpts) : p.through.obj())
+		.pipe(gulp.dest(js.out))
+    done();
 });
 
 // Image Optimization
