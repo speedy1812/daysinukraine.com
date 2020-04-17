@@ -8,7 +8,7 @@ describe "donate page", type: :feature do
   end
 
   it "display the correct heading" do
-    expect(page).to have_css(:h1, text: "Donate")
+    expect(page).to have_css("h1", text: "Donate")
   end
 
 end
