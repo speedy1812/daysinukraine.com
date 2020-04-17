@@ -8,7 +8,7 @@ describe "plexus page", type: :feature do
   end
 
   it "display the correct heading" do
-    expect(page).to have_css(:h1, text: "Plexus")
+    expect(page).to have_css("h1", text: "Plexus")
   end
 
 end

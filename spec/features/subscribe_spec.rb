@@ -8,7 +8,7 @@ describe "subscribe page", type: :feature do
   end
 
   it "display the correct heading" do
-    expect(page).to have_css(:h1, text: "Subscribe")
+    expect(page).to have_css("h1", text: "Subscribe")
   end
 
   it "display a signup box" do

@@ -8,7 +8,7 @@ describe "about page", type: :feature do
   end
 
   it "display the correct heading" do
-    expect(page).to have_css(:h1, text: "About Us")
+    expect(page).to have_css("h1", text: "About Us")
   end
 
 end
