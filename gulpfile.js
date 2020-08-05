@@ -53,7 +53,7 @@ var
 		proxy: 'localhost:4567',
 		open: false,
 		reloadDelay: 500,
-		files: [dest + '**/*.{js,css}', src + '**/*.{html,erb,haml,markdown}']
+		files: [dest + '**/*.{js,css}', src + '**/*.{html,erb,markdown}']
 	};
 
 // 3. WORKER TASKS

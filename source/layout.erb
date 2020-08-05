@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <%= partial "partials/head" %>
+  </head>
+  <body>
+    <main class="container">
+      <%= partial "partials/header" %>
+      <section class="content">
+        <div class="content-main">
+          <h2 class="article__post-title"><%= current_article.title unless current_article.nil? %></h2>
+          <p class="article__date-author">
+            <%= 'Posted on ' + current_article.date.strftime('%B %e, %G') unless current_article.nil? %>
+            <%= 'by ' + current_article.data.author unless current_article.nil? or current_article.data.author.nil? %>
+          </p>
+          <%= yield %>
+        </div>
+        <%= partial "partials/sidebar" %>
+      </section>
+      <%= partial "partials/footer" %>
+    </main>
+  </body>
+</html>

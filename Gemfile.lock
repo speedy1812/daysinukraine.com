@@ -177,7 +177,6 @@ PLATFORMS
 DEPENDENCIES
   builder (~> 3.0)
   capybara (~> 3.3)
-  haml (~> 5.1, >= 5.1.2)
   launchy (~> 2.4)
   middleman (~> 4.1)
   middleman-blog
