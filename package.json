@@ -34,11 +34,13 @@
     "gulp-environments": "^1.0.1",
     "gulp-imagemin": "^7.0.0",
     "gulp-load-plugins": "^2.0.2",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-sizereport": "^1.2.0",
     "gulp-sourcemaps": "^2.0.0",
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglify": "^3.0.0",
+    "postcss-import": "^12.0.1",
     "run-sequence": "^2.0.0",
     "through2": "^4.0.0",
     "vinyl-buffer": "^1.0.0",
@@ -46,6 +48,7 @@
   },
   "dependencies": {
     "jquery": "^3.5.1",
-    "moment": "^2.26.0"
+    "moment": "^2.26.0",
+    "tailwindcss": "^1.6.2"
   }
 }

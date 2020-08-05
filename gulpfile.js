@@ -3,6 +3,7 @@
 // 1. LOAD PLUGINS
 
 var gulp = require('gulp');
+var postcss = require("gulp-postcss");
 var p    = require('gulp-load-plugins')({ // This loads all the other plugins.
 	DEBUG: false,
 	pattern: ['gulp-*', 'gulp.*', 'del', 'run-*', 'browser*', 'vinyl-*', 'through2'],
@@ -28,6 +29,7 @@ var
 
 	sassOpts = {
 		imagePath: '../images',
+    includePaths: ['node_modules'],
 		errLogToConsole: true
 	},
 
@@ -61,7 +63,11 @@ gulp.task('css', function() {
 	return gulp.src(css.in)
 		.pipe(development(p.sourcemaps.init()))
 		.pipe(p.sass(sassOpts).on('error', p.sass.logError))
-		.pipe(p.autoprefixer()).on('error', handleError)
+    .pipe(postcss([
+        require("postcss-import"),
+        require("tailwindcss"),
+        require("autoprefixer")
+      ]))
 		.pipe(production(p.cleanCss()))
 		.pipe(development(p.sourcemaps.write()))
 		.pipe(gulp.dest(css.out));
