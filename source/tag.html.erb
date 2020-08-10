@@ -3,16 +3,18 @@ pageable: true
 per_page: 12
 ---
 
-<h1>Articles tagged '<%= tagname %>'</h1>
+<h1 class="mb-4">Articles tagged '<%= tagname %>'</h1>
 
 <% if paginate && num_pages > 1 %>
-	<p>Page <%= page_number %> of <%= num_pages %></p>
+	<p class="mb-4">Page <%= page_number %> of <%= num_pages %></p>
 	<% if prev_page %>
-		<p><%= link_to 'Previous page', prev_page %></p>
+    <p class="forward-backward-links">
+      <%= link_to '&larr; Previous page', prev_page %>
+    </p>
 	<% end %>
 <% end %>
 
-<ul>
+<ul class="mb-4">
 	<% page_articles.each_with_index do |article, i| %>
 		<li>
 			<%= link_to article.title, article %>
@@ -23,6 +25,8 @@ per_page: 12
 
 <% if paginate %>
 	<% if next_page %>
-		<p><%= link_to 'Next page', next_page %></p>
+    <p class="forward-backward-links">
+      <%= link_to 'Next page &rarr;', next_page %>
+    </p>
 	<% end %>
 <% end %>

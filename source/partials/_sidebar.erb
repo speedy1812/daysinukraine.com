@@ -1,5 +1,5 @@
-<aside class="sidebar">
-	<div class="sidebar__item">
+<aside class="pr-2 mt-1 col-span-1">
+	<div class="mb-4">
 		<h2>Our Ministries</h2>
 		<ol>
 			<li>
@@ -13,20 +13,20 @@
 			</li>
 		</ol>
 	</div>
-	<div class="sidebar__item">
+	<div class="mb-4">
 		<h2>Recent Posts</h2>
 		<ol>
 			<% blog.articles[0...5].each do |article| %>
 				<li>
 					<%= link_to article.title, article %>
-					<span class="sidebar__post-dates">
+					<span class="small-dates">
 						<%= article.date.strftime('%b %e') %>
 					</span>
 				</li>
 			<% end %>
 		</ol>
 	</div>
-	<div class="sidebar__item">
+	<div class="mb-4">
 		<h2>Tags</h2>
 		<ol>
 			<% blog.tags.each do |tag, articles| %>
@@ -36,7 +36,7 @@
 			<% end %>
 		</ol>
 	</div>
-	<div class="sidebar__item">
+	<div>
 		<h2>By Year</h2>
 		<ol>
 			<% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
