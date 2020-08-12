@@ -1,48 +1,34 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 @responsive {
   .nav-background {
     background-image: linear-gradient(#333333, #0a0a0a);
   }
 }
 
-.nav-links{
+.nav-links {
   @apply mx-3 mb-3 cursor-pointer;
 }
 
-.nav-links:hover{
-  @apply underline text-gray-400;
+.nav-links:hover {
+  @apply text-gray-400 underline;
 }
 
-h1{
-  @apply text-3xl font-bold;
-}
-
-h2{
-  @apply text-xl font-bold;
-}
-
-section a{
+section a {
   color: #1565c0;
   cursor: pointer;
 }
 
-section a:hover{
-  @apply underline text-blue-800;
+section a:hover {
+  @apply text-blue-800 underline;
 }
 
-.content-main {
-  ol {
+.content-main ol {
     list-style-type: decimal;
     margin-left: 50px;
-  }
+}
 
-  ul {
+.content-main ul {
     list-style-type: disc;
     margin-left: 50px;
-  }
 }
 
 .forward-backward-links {
@@ -53,6 +39,6 @@ section a:hover{
   @apply text-xs italic;
 }
 
-footer a:hover{
-  @apply underline text-white;
+footer a:hover {
+  @apply text-white underline;
 }
