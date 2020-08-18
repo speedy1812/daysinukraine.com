@@ -8,7 +8,12 @@ h2 {
 	@apply text-xl font-bold;
 }
 
+blockquote {
+  @apply max-w-sm mx-auto mt-3 mb-6 italic text-center;
+}
+
 @import "./custom/main.css";
+@import "./custom/content.css";
 
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";

@@ -1,0 +1,23 @@
+article h2 {
+  @apply mb-2;
+}
+
+article p {
+  @apply mb-2;
+}
+
+.content-main h2 {
+  @apply mb-2
+}
+
+.content-main p {
+  @apply mb-2
+}
+
+p img {
+  @apply block mx-auto mt-8;
+}
+
+iframe {
+  @apply mx-auto my-4;
+}
