@@ -6,12 +6,12 @@ window.onload=function(){
   const sidebar = document.querySelector('.sidebar');
 
   menu.addEventListener('click', () => {
-    if (sidebar.classList.contains('hidden')) {
-      sidebar.classList.remove('hidden');
-    }
+    sidebar.classList.add('-translate-x-full');
+    sidebar.classList.add('shadow-xl');
   });
 
   x.addEventListener('click', () => {
-    sidebar.classList.add('hidden');
+    sidebar.classList.remove('-translate-x-full');
+    sidebar.classList.remove('shadow-xl');
   });
 }
