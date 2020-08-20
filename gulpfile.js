@@ -84,7 +84,9 @@ gulp.task('js', function(done) {
 		.pipe(p.source('bundle.js'))
 		.pipe(production ? p.buffer() : p.through.obj())
 		.pipe(production(p.stripDebug()))
-		.pipe(production ? p.uglify(uglifyOpts) : p.through.obj())
+		.pipe(production(p.sourcemaps.init()))
+    .pipe(production(p.terser()))
+    .pipe(production(p.sourcemaps.write()))
 		.pipe(gulp.dest(js.out))
     done();
 });
