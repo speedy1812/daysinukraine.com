@@ -1,12 +1,14 @@
 {
-  "name": "middleman-gulp",
-  "version": "1.0.0",
-  "description": "A Middleman 4 template using Gulp.js",
-  "author": "Joshua Steele",
-  "homepage": "",
+  "name": "daysinukraine.com",
+  "version": "2.0.0",
+  "description": "A blog about the Day Family's ministry in Ukraine",
+  "author": "Nathan Day",
+  "homepage": "https://daysinukraine.com",
   "license": "MIT",
+  "private": true,
   "keywords": [
     "middleman",
+    "tailwind",
     "gulp"
   ],
   "browserslist": [
@@ -14,10 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
+    "url": "https://github.com/speedy1812/daysinukraine.com"
   },
   "scripts": {
     "development": "NODE_ENV=development gulp default",
