@@ -55,8 +55,10 @@ gulp.task('css', function() {
         require("tailwindcss"),
         require("autoprefixer")
       ]))
+		.pipe(production(p.sourcemaps.init()))
 		.pipe(production(p.cleanCss()))
 		.pipe(development(p.sourcemaps.write()))
+		.pipe(production(p.sourcemaps.write()))
 		.pipe(gulp.dest(css.out));
 });
 
@@ -64,7 +66,7 @@ gulp.task('css', function() {
 gulp.task('js', function(done) {
 	var b = p.browserify({
 		entries: src + 'javascripts/all.js',
-		debug: true
+		debug: true // This provides sourcemaps in development
 	});
 
 	return b.bundle().on('error', handleError)
