@@ -1,7 +1,7 @@
 module.exports = {
   purge: [
     './source/**/*.erb',
-    './source/**/*.scss',
+    './source/**/*.css',
     './source/**/*.js',
   ],
   theme: {

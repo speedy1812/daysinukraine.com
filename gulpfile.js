@@ -27,21 +27,9 @@ var
 		out: dest + 'stylesheets/',
 	},
 
-	sassOpts = {
-		imagePath: '../images',
-    includePaths: ['node_modules'],
-		errLogToConsole: true
-	},
-
 	js = {
 		in: src + 'javascripts/*.{js,coffee}',
 		out: dest + 'javascripts/'
-	},
-
-	uglifyOpts = {
-    output: {
-      comments: 'uglify-save-license'
-    }
 	},
 
 	images = {
@@ -62,7 +50,6 @@ var
 gulp.task('css', function() {
 	return gulp.src(css.in)
 		.pipe(development(p.sourcemaps.init()))
-		.pipe(p.sass(sassOpts).on('error', p.sass.logError))
     .pipe(postcss([
         require("postcss-import"),
         require("tailwindcss"),
