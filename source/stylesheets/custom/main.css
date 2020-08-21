@@ -21,6 +21,14 @@ section a:hover {
   @apply text-blue-800 underline;
 }
 
+h1 {
+	@apply text-3xl font-bold;
+}
+
+h2 {
+	@apply text-xl font-bold;
+}
+
 .content-main ol {
     list-style-type: decimal;
     margin-left: 50px;
