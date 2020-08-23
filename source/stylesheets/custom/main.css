@@ -9,7 +9,7 @@
 }
 
 .nav-links:hover {
-  @apply text-gray-400 underline;
+  @apply text-gray-400 transform scale-110 transition ease-out duration-100;
 }
 
 section a {
@@ -18,7 +18,7 @@ section a {
 }
 
 section a:hover {
-  @apply text-blue-800 underline;
+  @apply text-blue-500 underline transition ease-out duration-100;
 }
 
 h1 {
@@ -48,5 +48,5 @@ h2 {
 }
 
 footer a:hover {
-  @apply text-white underline;
+  @apply text-white underline transition ease-out duration-100;
 }
