@@ -33,7 +33,7 @@ var
 	},
 
 	images = {
-		in: src + 'images/**/*',
+		in: src + 'images/**/*.{jpg,jpeg,png,gif}',
 		out: dest + 'images/'
 	},
 
