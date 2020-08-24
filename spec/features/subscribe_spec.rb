@@ -13,7 +13,7 @@ describe "subscribe page", type: :feature do
 
   it "display a signup box" do
     # expect(page).to have_css(:form)
-    expect(page).to have_css("input.mc-subscribe__button")
+    expect(page).to have_css("input.shadow-inner")
   end
 
 end

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <%= partial "partials/head" %>
+  </head>
+  <body class="my-2 bg-gray-300">
+    <main class="mx-auto my-0 overflow-x-hidden bg-gray-100 shadow-lg max-w-screen-lg">
+      <%= partial "partials/header" %>
+      <section class="relative text-gray-900 grid grid-cols-4">
+        <div class="px-10 content-main col-span-4 md:col-span-3">
+          <h1 class="mb-1"><%= current_article.title unless current_article.nil? %></h1>
+          <p class="forward-backward-links">
+            <%= 'Posted on ' + current_article.date.strftime('%B %e, %G') unless current_article.nil? %>
+            <%= 'by ' + current_article.data.author unless current_article.nil? or current_article.data.author.nil? %>
+          </p>
+          <%= yield %>
+        </div>
+        <%= partial "partials/sidebar" %>
+      </section>
+      <%= partial "partials/footer" %>
+    </main>
+  </body>
+</html>

@@ -3,8 +3,7 @@
 // 1. LOAD PLUGINS
 
 var gulp = require('gulp');
-var bourbon = require('bourbon').includePaths;
-var neat = require('bourbon-neat').includePaths;
+var postcss = require("gulp-postcss");
 var p    = require('gulp-load-plugins')({ // This loads all the other plugins.
 	DEBUG: false,
 	pattern: ['gulp-*', 'gulp.*', 'del', 'run-*', 'browser*', 'vinyl-*', 'through2'],
@@ -28,25 +27,13 @@ var
 		out: dest + 'stylesheets/',
 	},
 
-	sassOpts = {
-		imagePath: '../images',
-    includePaths: [bourbon, neat],
-		errLogToConsole: true
-	},
-
 	js = {
 		in: src + 'javascripts/*.{js,coffee}',
 		out: dest + 'javascripts/'
 	},
 
-	uglifyOpts = {
-    output: {
-      comments: 'uglify-save-license'
-    }
-	},
-
 	images = {
-		in: src + 'images/*',
+		in: src + 'images/**/*.{jpg,jpeg,png,gif}',
 		out: dest + 'images/'
 	},
 
@@ -54,7 +41,7 @@ var
 		proxy: 'localhost:4567',
 		open: false,
 		reloadDelay: 500,
-		files: [dest + '**/*.{js,css}', src + '**/*.{html,erb,haml,markdown}']
+		files: [dest + '**/*.{js,css}', src + '**/*.{html,erb,markdown}']
 	};
 
 // 3. WORKER TASKS
@@ -63,10 +50,15 @@ var
 gulp.task('css', function() {
 	return gulp.src(css.in)
 		.pipe(development(p.sourcemaps.init()))
-		.pipe(p.sass(sassOpts).on('error', p.sass.logError))
-		.pipe(p.autoprefixer()).on('error', handleError)
+    .pipe(postcss([
+        require("postcss-import"),
+        require("tailwindcss"),
+        require("autoprefixer")
+      ]))
+		.pipe(production(p.sourcemaps.init()))
 		.pipe(production(p.cleanCss()))
 		.pipe(development(p.sourcemaps.write()))
+		.pipe(production(p.sourcemaps.write()))
 		.pipe(gulp.dest(css.out));
 });
 
@@ -74,14 +66,16 @@ gulp.task('css', function() {
 gulp.task('js', function(done) {
 	var b = p.browserify({
 		entries: src + 'javascripts/all.js',
-		debug: true
+		debug: true // This provides sourcemaps in development
 	});
 
 	return b.bundle().on('error', handleError)
 		.pipe(p.source('bundle.js'))
 		.pipe(production ? p.buffer() : p.through.obj())
 		.pipe(production(p.stripDebug()))
-		.pipe(production ? p.uglify(uglifyOpts) : p.through.obj())
+		.pipe(production(p.sourcemaps.init()))
+    .pipe(production(p.terser()))
+    .pipe(production(p.sourcemaps.write()))
 		.pipe(gulp.dest(js.out))
     done();
 });

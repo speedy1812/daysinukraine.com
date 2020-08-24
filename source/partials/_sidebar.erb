@@ -1,0 +1,54 @@
+<aside class="absolute z-20 w-64 px-8 py-4 bg-gray-200 border-t border-b border-l border-gray-600 rounded-l transform md:transform-none left-full transition ease-out duration-500 md:transition-none sidebar md:block md:mt-4 md:border-none md:bg-transparent md:shadow-none md:py-0 md:px-0 md:pr-2 md:static md:col-span-1">
+	<div class="mb-4">
+    <div class="flex items-center justify-between">
+      <h2>Our Ministries</h2>
+      <div class="cursor-pointer md:hidden x">
+        <svg class="w-8" viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </div>
+    </div>
+		<ol>
+			<li>
+				<%= link_to 'Euro Team Outreach', 'http://euroteamoutreach.org', target: :_blank %>
+			</li>
+			<li>
+				<%= link_to 'Bible First', 'http://getbiblefirst.com', target: :_blank %>
+			</li>
+			<li>
+				<%= link_to 'Carpathian Mountain Outreach', 'http://cmoproject.org', target: :_blank %>
+			</li>
+		</ol>
+	</div>
+	<div class="mb-4">
+		<h2>Recent Posts</h2>
+		<ol>
+			<% blog.articles[0...5].each do |article| %>
+				<li>
+					<%= link_to article.title, article %>
+					<span class="small-dates">
+						<%= article.date.strftime('%b %e') %>
+					</span>
+				</li>
+			<% end %>
+		</ol>
+	</div>
+	<div class="mb-4">
+		<h2>Tags</h2>
+		<ol>
+			<% blog.tags.each do |tag, articles| %>
+				<li>
+					<%= link_to "#{tag} (#{articles.size})", tag_path(tag) %>
+				</li>
+			<% end %>
+		</ol>
+	</div>
+	<div>
+		<h2>By Year</h2>
+		<ol>
+			<% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+				<li>
+					<%= link_to "#{year} (#{articles.size})", blog_year_path(year) %>
+				</li>
+			<% end %>
+		</ol>
+	</div>
+</aside>

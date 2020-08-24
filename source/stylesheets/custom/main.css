@@ -1,0 +1,52 @@
+@responsive {
+  .nav-background {
+    background-image: linear-gradient(#333333, #0a0a0a);
+  }
+}
+
+.nav-links {
+  @apply mx-3 mb-3 cursor-pointer;
+}
+
+.nav-links:hover {
+  @apply text-gray-400 transform scale-110 transition ease-out duration-100;
+}
+
+section a {
+  color: #1565c0;
+  cursor: pointer;
+}
+
+section a:hover {
+  @apply text-blue-500 underline transition ease-out duration-100;
+}
+
+h1 {
+	@apply text-3xl font-bold;
+}
+
+h2 {
+	@apply text-xl font-bold;
+}
+
+.content-main ol {
+    list-style-type: decimal;
+    margin-left: 50px;
+}
+
+.content-main ul {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+.forward-backward-links {
+  @apply mb-3 text-sm italic;
+}
+
+.small-dates {
+  @apply text-xs italic;
+}
+
+footer a:hover {
+  @apply text-white underline transition ease-out duration-100;
+}

@@ -1,0 +1,33 @@
+<header class="mb-4">
+  <% link_to "/" do %>
+    <%= image_tag "06-daysinukraine-banner.svg", class: "bg-gray-100 cursor-pointer" %>
+  <% end %>
+  <nav class="nav-background">
+    <ul class="flex flex-wrap items-center justify-center pt-3 text-white">
+      <li class="nav-links nav-links:hover">
+        <%= link_to "Home", "/" %>
+      </li>
+      <li class="nav-links nav-links:hover">
+        <%= link_to "About", "/about" %>
+      </li>
+      <li class="nav-links nav-links:hover">
+        <%= link_to "Contact", "/contact" %>
+      </li>
+      <li class="nav-links nav-links:hover">
+        <%= link_to "Donate", "/donate" %>
+      </li>
+      <li class="nav-links nav-links:hover">
+        <%= link_to "Plexus", "/plexus" %>
+      </li>
+      <li class="nav-links nav-links:hover">
+        <%= link_to "Sermons", "/sermons" %>
+      </li>
+      <li class="nav-links nav-links:hover">
+        <%= link_to "Subscribe", "/subscribe" %>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div class="relative z-10 w-11/12 cursor-pointer menu md:hidden">
+  <svg viewBox="0 0 20 20" fill="currentColor" class="absolute right-0 w-8 h-8"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+</div>

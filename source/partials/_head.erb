@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+<%= stylesheet_link_tag "site" %>
+<%= javascript_include_tag  "bundle", async: true %>
+
+<title><%= current_page.data.title + ' - ' unless current_page.data.title.nil? %>Nathan & Katelin Day</title>
+<%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
