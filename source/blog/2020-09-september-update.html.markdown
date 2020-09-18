@@ -5,7 +5,7 @@ author: Nathan
 tags: monthly updates
 ---
 
-##Web Develpment
+##Web Development
 
 Just last night, Josh and I were testing a new feature of Bible First Online that makes it easier to sign someone up for Bible First wherever you happen to be, using just a smartphone! Our goal is to finish up a few last features, then recruit some friends to be beta testers while we tie up some more loose ends.
 
