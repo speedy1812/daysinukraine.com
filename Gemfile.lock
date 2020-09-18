@@ -9,7 +9,7 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     ansi (1.5.0)
-    backports (3.18.1)
+    backports (3.18.2)
     builder (3.2.4)
     capybara (3.33.0)
       addressable
@@ -33,7 +33,7 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.2.0)
     ffi (1.13.1)
-    fog-aws (3.6.6)
+    fog-aws (3.6.7)
       fog-core (~> 2.1)
       fog-json (~> 1.1)
       fog-xml (~> 0.1)
