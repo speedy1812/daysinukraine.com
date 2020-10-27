@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe "sermons page", type: :feature do
   before do
     visit "/sermons"
@@ -10,5 +12,4 @@ describe "sermons page", type: :feature do
   it "display the correct heading" do
     expect(page).to have_css("h1", text: "Sermons")
   end
-
 end

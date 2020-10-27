@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe "subscribe page", type: :feature do
   before do
     visit "/subscribe"
@@ -15,5 +17,4 @@ describe "subscribe page", type: :feature do
     # expect(page).to have_css(:form)
     expect(page).to have_css("input.shadow-inner")
   end
-
 end

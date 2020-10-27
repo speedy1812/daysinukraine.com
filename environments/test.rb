@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # This file is for reference only. The test environment is set in
 # spec/spec_helper.rb
 #

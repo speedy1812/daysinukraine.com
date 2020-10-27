@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe "plexus page", type: :feature do
   before do
     visit "/plexus"
@@ -10,5 +12,4 @@ describe "plexus page", type: :feature do
   it "display the correct heading" do
     expect(page).to have_css("h1", text: "Plexus")
   end
-
 end
