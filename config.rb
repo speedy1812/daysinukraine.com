@@ -47,7 +47,7 @@ activate :blog do |blog|
 
   # When generating new articles, use template
   blog.new_article_template =
-    File.expand_path("source/blog/templates/post-template.erb",
+    File.expand_path("source/blog/templates/post_template.erb",
                      File.dirname(__FILE__))
 end
 

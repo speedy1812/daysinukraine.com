@@ -8,13 +8,13 @@
     </div>
 		<ol>
 			<li>
-				<%= link_to 'Euro Team Outreach', 'http://euroteamoutreach.org', target: :_blank %>
+				<%= link_to "Euro Team Outreach", "http://euroteamoutreach.org", target: :_blank, rel: :noopener %>
 			</li>
 			<li>
-				<%= link_to 'Bible First', 'http://getbiblefirst.com', target: :_blank %>
+				<%= link_to "Bible First", "http://getbiblefirst.com", target: :_blank, rel: :noopener %>
 			</li>
 			<li>
-				<%= link_to 'Carpathian Mountain Outreach', 'http://cmoproject.org', target: :_blank %>
+				<%= link_to "Carpathian Mountain Outreach", "http://cmoproject.org", target: :_blank, rel: :noopener %>
 			</li>
 		</ol>
 	</div>
@@ -25,7 +25,7 @@
 				<li>
 					<%= link_to article.title, article %>
 					<span class="small-dates">
-						<%= article.date.strftime('%b %e') %>
+						<%= article.date.strftime("%b %e") %>
 					</span>
 				</li>
 			<% end %>
