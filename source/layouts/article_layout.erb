@@ -1,0 +1,23 @@
+<%
+  site_url = data.site.url
+  site_image = data.site.image
+  site_desc = data.site.description
+
+  article_title = current_article.data.title
+  article_image = current_article.data.image
+  article_desc = current_article.data.description
+
+  og_url = site_url + current_page.url
+  og_image = article_og_item_for(article_image, site_image)
+  og_desc = article_og_item_for(article_desc, site_desc)
+%>
+<% wrap_layout :layout do %>
+  <% content_for :og_tags do %>
+    <%= tag "meta", property: "og:url", content: og_url %>
+    <%= tag "meta", property: "og:title", content: article_title %>
+    <%= tag "meta", property: "og:image", content: og_image %>
+    <%= tag "meta", property: "og:description", content: og_desc %>
+    <%= tag "meta", property: "og:type", content: "article" %>
+  <% end %>
+  <%= yield %>
+<% end %>
