@@ -1,6 +1,6 @@
 # DaysinUkraine.com
 
-[DaysinUkraine.com][blog] is the blog of Nathan and Katelin Day.
+[Days in Ukraine][daysinukraine] is the website of the Day Family, which documents their ministry in Ukraine.
 
 This site was built using [Middleman 4][middleman].
 
@@ -14,7 +14,7 @@ When switching to [Tailwind][tailwind], I found Joonas Kykkänen's [Middleman + 
 
 Site content is copyright © 2017-2020 by Nathan and Katelin Day. Software is under the [MIT license][license].
 
-[blog]: http://daysinukraine.com/
+[daysinukraine]: http://daysinukraine.com/
 [middleman]: https://middlemanapp.com/
 [josh-steele]: https://github.com/joshukraine
 [middleman-gulp]: https://github.com/joshukraine/middleman-gulp
