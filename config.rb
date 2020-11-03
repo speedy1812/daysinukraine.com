@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -5,9 +7,9 @@
 # Per-page layout changes:
 #
 # With no layout
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
+page "/*.xml", layout: false
+page "/*.json", layout: false
+page "/*.txt", layout: false
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -27,7 +29,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   blog.sources = "blog/{year}-{month}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
+  blog.layout = "article_layout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
@@ -43,8 +45,10 @@ activate :blog do |blog|
   blog.per_page = 10
   blog.page_link = "page/{num}"
 
-  # When generating new articles, us template
-  blog.new_article_template = File.expand_path('source/blog/templates/post-template.erb', File.dirname(__FILE__))
+  # When generating new articles, use template
+  blog.new_article_template =
+    File.expand_path("source/blog/templates/post_template.erb",
+                     File.dirname(__FILE__))
 end
 
 page "/feed.xml", layout: false
@@ -63,24 +67,23 @@ page "/feed.xml", layout: false
 # Build-specific configuration
 configure :build do
   activate :external_pipeline,
-    name: :gulp,
-    command: "npm run production",
-    source: ".tmp",
-    latency: 1
+           name: :gulp,
+           command: "npm run production",
+           source: ".tmp",
+           latency: 1
 
   activate :gzip
 
   ignore "javascripts/all.js"
   ignore "stylesheets/site"
-
 end
 
 # https://github.com/fredjean/middleman-s3_sync
 activate :s3_sync do |s3|
-	s3.bucket = "daysinukraine.com"
-	s3.aws_access_key_id = ENV["AWS_ACCESS_KEY_ID"]
-	s3.aws_secret_access_key = ENV["AWS_SECRET_ACCESS_KEY"]
-	s3.prefer_gzip = true
-	s3.index_document = "index.html"
-	s3.error_document = "404.html"
+  s3.bucket = "daysinukraine.com"
+  s3.aws_access_key_id = ENV["AWS_ACCESS_KEY_ID"]
+  s3.aws_secret_access_key = ENV["AWS_SECRET_ACCESS_KEY"]
+  s3.prefer_gzip = true
+  s3.index_document = "index.html"
+  s3.error_document = "404.html"
 end

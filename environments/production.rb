@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file is for reference only. Actual settings for the production
 # environment are stored in the build configuation block in config.rb.
 #

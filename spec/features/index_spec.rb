@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe "home page", type: :feature do
   before do
     visit "/"
@@ -14,5 +16,4 @@ describe "home page", type: :feature do
   it "displays a blog post" do
     expect(page).to have_css("div.content-main")
   end
-
 end

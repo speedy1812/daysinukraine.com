@@ -3,6 +3,8 @@ title: October Update
 date: 2020-10-24 09:27 UTC
 author: Nathan
 tags: monthly updates
+image: https://f000.backblazeb2.com/file/daysinukraine/images/2020/10-family.jpg
+description: If I were to rank the all the books I've read in terms of the impact they have had on my life, a book titled By Divine Design would definitely be in the top three. I'm excited to report that we have recently started translating it into Ukrainian!
 ---
 
 ## New Translation Project
