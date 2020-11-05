@@ -1,4 +1,4 @@
-# DaysinUkraine.com
+# DaysInUkraine.com
 
 [Days in Ukraine][daysinukraine] is the website of the Day Family, which documents their ministry in Ukraine.
 
