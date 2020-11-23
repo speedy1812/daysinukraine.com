@@ -3,13 +3,13 @@ title: November Update
 date: 2020-11-19 13:17 UTC
 author: Nathan
 tags: monthly updates
-image:
-description:
+image: https://f000.backblazeb2.com/file/daysinukraine/images/2020/11-leaves.jpg
+description: Why is God a Good Father? Because He lets us help Him with His projects. As any parent will tell you, kids love to do grownup stuff. Give them the choice between...
 ---
 
 ## Helping Dad
 
-We all know that God is our Heavenly Father. And we know that God is a Good Father. But *why* is He a Good Father? One of the reasons is because He lets us help Him with his projects. As any parent will tell you, kids love to do grownup stuff. Give them the choice between "cooking" with plastic food or cooking real food with Mom, or "fixing" things with play tools versus helping Dad fix something with Dad's tools, and they'll take the real stuff any day.
+We all know that God is our Heavenly Father. And we know that God is a Good Father. But *why* is He a Good Father? One of the reasons is because He lets us help Him with His projects. As any parent will tell you, kids love to do grownup stuff. Give them the choice between "cooking" with plastic food or cooking real food with Mom, or "fixing" things with play tools versus helping Dad fix something with Dad's tools, and they'll take the real stuff any day.
 
 The Bible says that God was/is "reconciling the world unto himself". Missions isn't something that man came up with, it was God's idea. But then the Bible says that God has "committed unto us the word of reconciliation". God didn't have to do that. I'm sure He would have done a much better job of it. I'm sure He has to be very patient with us as we make messes, and sometimes do more harm than good. But because He's a Good Father, He decided to let us get involved in His grownup stuff.
 
