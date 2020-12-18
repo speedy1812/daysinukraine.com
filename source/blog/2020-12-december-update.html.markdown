@@ -3,7 +3,7 @@ title: December Update
 date: 2020-12-17 15:22 UTC
 author: Nathan
 tags: monthly updates
-image:
+image: https://f000.backblazeb2.com/file/daysinukraine/images/2020/12-sled.jpg
 description: Due to sickness in the Steele family and our family, we've had to push back our beta release of Bible First Online until sometime in January. Still, preparations continue!
 ---
 
