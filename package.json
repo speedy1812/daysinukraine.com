@@ -23,7 +23,7 @@
     "production": "NODE_ENV=production gulp production"
   },
   "devDependencies": {
-    "autoprefixer": "^10.1.0",
+    "autoprefixer": "^10.2.3",
     "browser-sync": "^2.26.13",
     "browserify": "^17.0.0",
     "del": "^6.0.0",
@@ -37,8 +37,8 @@
     "gulp-sizereport": "^1.2.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-strip-debug": "^3.0.0",
-    "gulp-terser": "^2.0.0",
-    "postcss": "^8.2.1",
+    "gulp-terser": "^2.0.1",
+    "postcss": "^8.2.4",
     "postcss-import": "^14.0.0",
     "run-sequence": "^2.0.0",
     "through2": "^4.0.0",
