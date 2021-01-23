@@ -3,7 +3,7 @@ title: January Update
 date: 2021-01-21 11:58 UTC
 author: Nathan
 tags: monthly updates
-image:
+image: https://f000.backblazeb2.com/file/daysinukraine/images/2021/1-cookies.jpg
 description: Bible First Online is in the process of being released into the wild! About 30-35 people tuned into a Zoom call where we explained how...
 ---
 
