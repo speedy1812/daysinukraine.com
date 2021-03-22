@@ -2,6 +2,7 @@
 
 @import "./custom/main.css";
 @import "./custom/content.css";
+@import "./custom/video.css";
 
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";

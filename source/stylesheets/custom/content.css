@@ -21,7 +21,3 @@ p img {
 blockquote {
   @apply max-w-sm mx-auto mt-3 mb-6 italic text-center;
 }
-
-iframe {
-  @apply mx-auto my-4;
-}

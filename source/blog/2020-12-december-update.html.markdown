@@ -11,7 +11,9 @@ description: Due to sickness in the Steele family and our family, we've had to p
 
 Due to sickness in the Steele family and our family, we've had to push back our beta release of Bible First Online until sometime in January. Still, preparations continue! Lately I've been writing documentation and recording screencasts to help the new users understand how to use Bible First Online. (And I've learned a thing or two about screencasting in the process!)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vCktfAwLHvs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vCktfAwLHvs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 > This is the first Bible First screencast I made — a short demonstration of the signup process.
 

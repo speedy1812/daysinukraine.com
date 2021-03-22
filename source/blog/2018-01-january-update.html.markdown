@@ -31,6 +31,8 @@ We recently learned that while Lydia has good vision in her left eye, her right 
 
 Other than that, things are going well on the family front. The kids are growing, school is going well, and after an unusually warm January, the kids are getting some good sledding in!
 
-<iframe width="450" height="253" src="https://www.youtube.com/embed/9uN2wtKpkk4?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="videoWrapper">
+  <iframe width="450" height="253" src="https://www.youtube.com/embed/9uN2wtKpkk4?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 > In case you were wondering, yes, I do speak Ukrainian. :) The church we attend usually has a mini sermon before the main sermon, and sometimes I am asked to do the mini sermon.
