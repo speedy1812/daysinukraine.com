@@ -8,6 +8,10 @@
 activate :asset_hash
 activate :asset_host, host: "https://d1ll4tgr741o0l.cloudfront.net"
 
+# https://github.com/Aupajo/middleman-search_engine_sitemap
+set :url_root, "https://daysinukraine.com/"
+activate :search_engine_sitemap
+
 # https://github.com/fredjean/middleman-s3_sync#http-caching
 default_caching_policy max_age: (60 * 60 * 24 * 365)
 caching_policy "text/html", public: true, max_age: 0, must_revalidate: true
