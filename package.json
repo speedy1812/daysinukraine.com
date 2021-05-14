@@ -38,8 +38,8 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-strip-debug": "^4.0.0",
     "gulp-terser": "^2.0.1",
-    "postcss": "^8.2.10",
-    "postcss-import": "^14.0.1",
+    "postcss": "^8.2.15",
+    "postcss-import": "^14.0.2",
     "run-sequence": "^2.0.0",
     "through2": "^4.0.0",
     "vinyl-buffer": "^1.0.0",
@@ -48,6 +48,6 @@
   "dependencies": {
     "jquery": "^3.6.0",
     "moment": "^2.29.1",
-    "tailwindcss": "^2.1.1"
+    "tailwindcss": "^2.1.2"
   }
 }
