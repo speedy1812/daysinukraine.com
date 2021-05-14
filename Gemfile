@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gem "middleman", "~> 4.1"
 gem "middleman-blog"
 gem "middleman-minify-html", "~> 3.4"
+gem "middleman-search_engine_sitemap", "~> 1.4"
 gem "redcarpet", "~> 3.3", ">= 3.3.3"
 
 # For feed.xml.builder
