@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.5)
+    activesupport (5.2.6)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -28,8 +28,8 @@ GEM
     diff-lcs (1.4.4)
     dotenv (2.7.6)
     erubis (2.7.0)
-    excon (0.79.0)
-    execjs (2.7.0)
+    excon (0.81.0)
+    execjs (2.8.1)
     fast_blank (1.0.0)
     fastimage (2.2.3)
     ffi (1.15.0)
@@ -38,7 +38,7 @@ GEM
       fog-json (~> 1.1)
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
-    fog-core (2.2.3)
+    fog-core (2.2.4)
       builder
       excon (~> 0.71)
       formatador (~> 0.2)
@@ -120,7 +120,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0225)
     mini_mime (1.1.0)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.5.1)
     minitest (5.14.4)
     multi_json (1.15.0)
     nokogiri (1.11.3)
@@ -138,7 +138,7 @@ GEM
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rb-fsevent (0.10.4)
+    rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.1)
