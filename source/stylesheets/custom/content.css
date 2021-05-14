@@ -6,6 +6,10 @@ article p {
   @apply mb-2;
 }
 
+.content-main h1 {
+  @apply mb-2
+}
+
 .content-main h2 {
   @apply mb-2
 }
