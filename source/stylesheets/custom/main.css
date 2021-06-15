@@ -5,7 +5,7 @@
 }
 
 .nav-links {
-  @apply mx-3 mb-3 cursor-pointer;
+  @apply mx-3 mb-3 cursor-pointer md:text-lg md:mx-5;
 }
 
 .nav-links:hover {
