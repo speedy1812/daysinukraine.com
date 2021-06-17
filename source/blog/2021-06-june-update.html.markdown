@@ -9,7 +9,7 @@ description: The Bible First reprint picks up steam!
 
 ## Bible First Reprint
 
-It's hard to believe that it's been a year since I [reported on our plans](https://daysinukraine.com/2020/05/may-update/) to reprint the English Bible First lessons, but this time in a single book. The project has been simmering on the back burner, but things are finally picking up steam. I recently finished the job of correcting various typos and incorporating various suggestions that have come in since the last printing. We are working with a designer to finalize the styles for the book, and we've got someone lined up to do the layout once we are done. Hopefully we will be ready to go to press soon!
+It's hard to believe that it's been a year since I [reported on our plans](https://daysinukraine.com/2020/05/may-update/) to reprint the English Bible First lessons, but this time as a single book. The project has been simmering on the back burner, but things are finally picking up steam. I recently finished the job of correcting various typos and incorporating various suggestions that have come in since the last printing. We are working with a designer to finalize the styles for the book, and we've got someone lined up to do the layout once we are done. Hopefully we will be ready to go to press soon!
 
 ## Carpathian Mountain Outreach
 
