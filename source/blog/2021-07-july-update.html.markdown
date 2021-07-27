@@ -3,13 +3,13 @@ title: July Update
 date: 2021-07-21 09:10 UTC
 author: Nathan
 tags: monthly updates
-image:
-description:
+image: https://f000.backblazeb2.com/file/daysinukraine/images/2021/7-creek.jpg
+description: Work and play in Ukraine!
 ---
 
 ## Bible First Reprint
 
-The process to reprint Bible First as a single book is moving along nicely. We are expecting to get a first draft of the book in a few days, at which point we will look things over, and then move on from there.
+The process to reprint Bible First as a single book is moving along nicely. We just got another draft of Lesson 1. Once we get the layout solidified, the rest of the lessons should go much more quickly.
 
 ## Bible First Online
 
