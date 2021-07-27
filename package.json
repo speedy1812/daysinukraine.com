@@ -23,8 +23,8 @@
     "production": "NODE_ENV=production gulp production"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "browser-sync": "^2.26.14",
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.4",
     "browserify": "^17.0.0",
     "del": "^6.0.0",
     "gulp": "^4.0.0",
@@ -38,7 +38,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-strip-debug": "^4.0.0",
     "gulp-terser": "^2.0.1",
-    "postcss": "^8.3.4",
+    "postcss": "^8.3.6",
     "postcss-import": "^14.0.2",
     "run-sequence": "^2.0.0",
     "through2": "^4.0.0",
@@ -48,6 +48,6 @@
   "dependencies": {
     "jquery": "^3.6.0",
     "moment": "^2.29.1",
-    "tailwindcss": "^2.1.4"
+    "tailwindcss": "^2.2.7"
   }
 }
