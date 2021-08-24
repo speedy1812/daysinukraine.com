@@ -23,7 +23,7 @@ The reprint of Bible First is currently on hold, as our layout person recently h
 
 ## Steeles Going to America
 
-A few weeks ago, Josh was invited to speak at a family camp in the States. Then they were invited to speak at another family camp, and decided to take the whole family back for the camps and the holidays. They will be leaving on September 1 and coming back in mid-January. Before they can leave, they all need to get negative COVID tests, so pray that goes well. You can read more details on [their blog.](https://ofreport.com/blog/2021-08-19-coming-soon-to-a-neighborhood-near-you/)
+A few weeks ago, Josh was invited to speak at a family camp in the States. Then they were invited to speak at another family camp, and decided to take the whole family back for the camps and the holidays. They will be leaving on September 1 and coming back in mid-January. Before they can leave, they all need to get negative COVID tests, so pray that goes well. You can read more details on [their blog.](https://ofreport.com/blog/2021-08-19-coming-soon-to-a-neighborhood-near-you/){: target="_blank"}{:rel="noopener noreferrer"}
 
 ## Family
 
