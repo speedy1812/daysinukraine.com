@@ -9,7 +9,7 @@ description: Despite the snow, life and ministry goes on!
 
 ## Carpathian Mountain Outreach
 
-Unfortunately, CMO has once again [fallen victim](https://euroteamoutreach.org/blog/2021/03/cmo-in-a-covid-world/) to the coronavirus. However, if you had your heart set on coming to CMO, there is good news! CMO alumni Elliot Shupe and Ben Sargent are once again [organizing a mini-CMO](https://www.onwardforchrist.org/rocky-mountain-outreach-2021) in Colorado. (To avoid acronym confusion, instead of being called Colorado Mountain Outreach, it's being called Rocky Mountain Outreach, or RMO for short.) If you are interested in going, get your application in soon, as space is limited and filling up fast!
+Unfortunately, CMO has once again [fallen victim](https://euroteamoutreach.org/blog/2021/03/cmo-in-a-covid-world/){: target="_blank"}{:rel="noopener noreferrer"} to the coronavirus. However, if you had your heart set on coming to CMO, there is good news! CMO alumni Elliot Shupe and Ben Sargent are once again [organizing a mini-CMO](https://www.onwardforchrist.org/rocky-mountain-outreach-2021){: target="_blank"}{:rel="noopener noreferrer"} in Colorado. (To avoid acronym confusion, instead of being called Colorado Mountain Outreach, it's being called Rocky Mountain Outreach, or RMO for short.) If you are interested in going, get your application in soon, as space is limited and filling up fast!
 
 [![Rocky Mountain Outreach](images/2021/3-rmo-400w.jpg)](https://f000.backblazeb2.com/file/daysinukraine/images/2021/3-rmo.jpg)
 
@@ -17,7 +17,7 @@ Unfortunately, CMO has once again [fallen victim](https://euroteamoutreach.org/b
 
 ## The Steele Family
 
-Joshua Steele is currently in the States for the second time this year. For the past few months, his parents have faced health challenge after health challenge. While things are looking up at the moment, his parents are not out of the woods yet. More information is available on the [Steeles' blog](https://ofreport.com/blog/2021-03-04-an-unexpected-journey/).
+Joshua Steele is currently in the States for the second time this year. For the past few months, his parents have faced health challenge after health challenge. While things are looking up at the moment, his parents are not out of the woods yet. More information is available on the [Steeles' blog](https://ofreport.com/blog/2021-03-04-an-unexpected-journey/){: target="_blank"}{:rel="noopener noreferrer"}.
 
 ## Bible First Online
 
