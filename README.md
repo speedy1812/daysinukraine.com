@@ -12,7 +12,7 @@ When switching to [Tailwind][tailwind], I found Joonas Kykkänen's [Middleman + 
 
 ## Legal
 
-Site content is copyright © 2017-2020 by Nathan and Katelin Day. Software is under the [MIT license][license].
+Site content is copyright © 2017-2022 by Nathan and Katelin Day. Software is under the [MIT license][license].
 
 [daysinukraine]: http://daysinukraine.com/
 [middleman]: https://middlemanapp.com/
