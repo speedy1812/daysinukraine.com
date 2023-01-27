@@ -19,7 +19,7 @@ We then headed back to Texas, this time to Fairpark Baptist Church in Fort Worth
 
 [![Days and Wallers](images/2023/1-waller-600w.jpg)](https://f000.backblazeb2.com/file/daysinukraine/images/2023/1-waller.jpg)
 
-> Our family gets to know the Waller family. David is the new pastor at Fairpark, and Priscilla is another old friend of Katelin's.
+> Our family enjoyed getting to know the Waller family! David is the new pastor at Fairpark, and Priscilla is another old friend of Katelin's.
 
 **Podcasts**
 
@@ -35,7 +35,7 @@ We have a contact, J.D. Grimes, who arranged for Bible First to be translated in
 
 **Good and Evil**
 
-Last I heard, about 3,000 copies of Good and Evil have been distributed. 15,000 copies were printed this past summer, so we have about 12,000 copies left. If you'd like to read more, and see some pictures, just [click here.](https://ofreport.com/blog/2022-11-10-good-and-evil-books-shipping/){: target="_blank"}{:rel="noopener noreferrer"}
+Last I heard, about 3,000 copies of Good and Evil have been distributed in Ukraine. 15,000 copies were printed this past summer, so we have about 12,000 copies left. If you'd like to read more, and see some pictures, just [click here.](https://ofreport.com/blog/2022-11-10-good-and-evil-books-shipping/){: target="_blank"}{:rel="noopener noreferrer"}
 
 **Family**
 
