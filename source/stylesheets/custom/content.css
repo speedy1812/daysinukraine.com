@@ -25,3 +25,7 @@ p img {
 blockquote {
   @apply max-w-sm mx-auto mt-3 mb-6 italic text-center;
 }
+
+.content-main ul {
+ @apply mb-2
+}
