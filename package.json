@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "jquery": "^3.6.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "tailwindcss": "^2.2.17"
   }
 }
